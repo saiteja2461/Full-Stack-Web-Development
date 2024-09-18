@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width:320px) and (max-width:767px){
+        #container1{
+            width: 100%;
+            height: 100px;
+            background-color: black;   
+            margin: 4px;
+            line-height:100px;
+            color: white;
+        }
+        #container2{
+            width: 80%;
+            height: 80px;
+            background-color: green; 
+            margin: 0px 30px 4px; 
+            line-height: 80px;
+            color: white;
+        }
+        #container3{
+            width: 80%;
+            height: 80px;
+            background-color: green; 
+            margin: 0px 30px ;
+            line-height: 80px;
+            color: white;           
+        }
+        #container4{
+            width: 100%;
+            height: 100px;
+            background-color: black; 
+            margin: 4px; 
+            line-height:100px;
+            color: white;          
+        }
+    }
+    @media screen and (min-width:768px) and (max-width:1023px){
+        #container1{
+            width: 100%;
+            height: 100px;
+            background-color: black;    
+            color: white;
+            line-height:100px;    
+        }
+        #container2{
+            width: 40%;
+            height: 80px;
+            background-color: red; 
+            float:left; 
+            color: white; 
+            line-height:80px;   
+            /* margin-left: 46px; color: white; */
+        }
+        #container3{
+            width: 60%;
+            height: 80px;
+            background-color: blue;   
+            float: right; 
+            color: white;  
+            line-height:80px; 
+            /* margin-right: 45px; color: white; */
+        }
+        #container4{
+            width: 100%;
+            height: 100px;
+            background-color: black; 
+            color: white;  
+            line-height:100px; 
+            margin-top: 80px;         
+        }
+        #main-container{
+            margin: 0px 20px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="container1"><center><b>Responsive Layout</b></center></div>
+    <div id="main-container">
+
+        <div id="container2"><b>Sidebar Content</b></div>
+        <div id="container3"><b>Main Content</b></div>
+    </div>
+    <div id="container4"><center><b>Footer Content</b></center></div>
+</body>
+</html>
