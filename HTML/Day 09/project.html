@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: rgb(47, 47, 45);
+            padding: 30px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav div div {
+            display: inline;
+            background-color: rgb(126, 74, 74);
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        #marquee {
+            color: white;
+            flex-grow: 0.25;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        footer {
+            background-color: rgb(47, 47, 45);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+        fieldset{
+            padding: 15px;
+            background-color: rgb(170, 124, 64);
+        }
+        main{
+            background-color: rgb(170, 124, 64);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <div><a href="./home.html">Home</a></div>
+                <div><a href="./skills.html">Skills</a></div>
+                <div><a href="./project.html">Projects</a></div>
+                <div><a href="./contact.html">Contact</a></div>
+            </div>
+
+            <div id="marquee">
+                <marquee behavior="" direction=""> Sai Teja Gummalla </marquee>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+    <fieldset><b>To do list Application:</b></fieldset>
+    <fieldset>This project is a Full Stack Todo List Application which is built using the MongoDB, NodeJS, ExpressJS,
+        CSS, Javascript. It implements all the basic functionalities of a todo list, i.e, CRUD Operations (Create Read
+        Update Delete).
+        <ul>
+            <li>Users are able to Create new tasks.</li>
+            <li>Users are able to Read the created tasks data.</li>
+            <li>Users are able to Complete the task by checking off the task with a strike through.</li>
+            <li>Users are able to Delete the task.</li>
+            <li>Users are able to Update the tasks with many customized options. Users are able to View a Banner with
+                current
+                date-time.</li>
+            <li>Users can Check the count of remaining tasks, Complete all tasks together, Delete all completed tasks
+                together.</li>
+            <li>Users can View All, Incomplete, Completed Tasks.</li>
+            <li>Users can mark Due Date & Priority Levels for the Tasks.</li>
+        </ul>
+    </fieldset>
+    <fieldset><b>Social Media Web Application:</b></fieldset>
+    <fieldset>
+        <ul>
+        <p><li>Social media web application clone along the lines of Signal, Facebook, and Twitter. This will include
+            functionality of posting, commenting, and sharing other user’s posts, user authentication, notifications,
+            and private messaging. Using React we will able to develope our website, as well as using Node.js to handle
+            package management.</p></li>
+        <p><li>Users will be able to custom tailor a ”post” to be accessible from other devices. A post will be described as
+            a text or image upload. The author of the post as well as other users of the web application will be able to
+            “comment” on existing posts. Comment defined as text or image response. Users will be able to “share” an
+            existing post. Share is defined as posting a link or iframe instance of the other post.</p></li>
+        <p><li>Users will be able to login with their specific data to access posting, commenting, and sharing
+            functionality. We aim to utilize JWT for authentication rather than using external libraries such as
+            Passport.js Users' data will be stored in a database(MongoDB tentatively) to allow for recalling of existing
+            post and profile pages.</p></li>
+        <p><li>Users will be notified through email and or browser for comments or shares on an existing post. Users can
+            turn on or off notifications on publication of posts.</p></li>
+        </ul>
+    </fieldset>
+</form>
+</main>
+    
+        <footer>@copyright, This is a Portfolio</footer>
+    
+</body>
+
+</html>

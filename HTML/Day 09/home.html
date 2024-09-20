@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: rgb(47, 47, 45);
+            padding: 30px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav div div {
+            display: inline;
+            background-color: rgb(126, 74, 74);
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        #marquee {
+            color: white;
+            flex-grow: 0.25;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        main {
+            /* border: 2px solid; */
+            display: flex;
+            background-color: rgb(170, 124, 64);
+            color: white;
+            padding: 100px;
+        }
+
+        #info {
+            /* border: 2px solid; */
+            flex-grow: 0.4;
+            flex-basis: 0;
+            text-align: center;
+        }
+
+        #about {
+            /* border: 2px solid; */
+            flex-grow: 0.6;
+            flex-basis: 0;
+            font-size: x-large;
+        }
+
+        footer {
+            background-color: rgb(47, 47, 45);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: black;
+        }
+        </style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <div><a href="./home.html">Home</a></div>
+                <div><a href="./skills.html">Skills</a></div>
+                <div><a href="./project.html">Projects</a></div>
+                <div><a href="./contact.html">Contact</a></div>
+            </div>
+
+            <div id="marquee">
+                <marquee behavior="" direction=""> Sai Teja Gummalla </marquee>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="info">
+            <img src="../image.jpg" alt="">
+            <h2>Full Stack Developer</h2>
+            <article>
+                A Full stack developer with a focus on building, engaging & accessible experiences.
+            </article>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <article>
+                I am a dedicated Full Stack Developer with a passion for crafting seamless web applications. With
+                expertise in both front-end and back-end technologies, I bring a holistic approach to development that
+                ensures a smooth user experience. My skills include HTML, CSS, JavaScript, and frameworks like React and
+                Angular for the front end, alongside Node.js and Express for the back end. <br> <br> I thrive on solving
+                complex problems and enjoy collaborating with cross-functional teams to create innovative solutions. My
+                experience spans diverse industries, allowing me to adapt quickly to new challenges and technologies.
+                I’m committed to writing clean, maintainable code and applying best practices to ensure the scalability
+                and performance of applications.
+            </article>
+        </section>
+    </main>
+    <footer>@copyright, This is a Portfolio</footer>
+</body>
+
+</html>

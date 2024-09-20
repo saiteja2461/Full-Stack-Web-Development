@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: rgb(47, 47, 45);
+            padding: 30px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav div div {
+            display: inline;
+            background-color: rgb(126, 74, 74);
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        #marquee {
+            color: white;
+            flex-grow: 0.25;
+        }
+        main{
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-evenly;
+            background-color: rgb(170, 124, 64);
+            color: white;
+            padding: 60px 0px;
+        }
+        section{
+            border: 2px solid;
+            padding: 10px;
+            border-radius: 15px;
+            margin: 25px;
+            transition: transform 0.5s;
+        }
+        section:hover{
+            background-color: white;
+            color: black;
+            transform: scale(1.2);
+        }
+        footer {
+            background-color: rgb(47, 47, 45);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: black;
+        }
+        
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <div><a href="./home.html">Home</a></div>
+                <div><a href="./skills.html">Skills</a></div>
+                <div><a href="./project.html">Projects</a></div>
+                <div><a href="./contact.html">Contact</a></div>
+            </div>
+
+            <div id="marquee">
+                <marquee behavior="" direction=""> Sai Teja Gummalla </marquee>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>HTML</h2>
+            <article>Learned the fundamentals of HTML for building the structure of web pages</article>
+        </section>
+        <section>
+            <h2>CSS</h2>
+            <article>Explored the styling and layout capabilities of CSS to enhance your web designs.</article>
+        </section>
+        <section>
+            <h2>JavaScript</h2>
+            <article>Mastered the scripting language for dynamic and interactive web development.</article>
+        </section>
+        <section>
+            <h2>React</h2>
+            <article>Built modern, efficient, and scalable user interfaces with the React library.</article>
+        </section>
+        <section>
+            <h2>Node</h2>
+            <article>Learned server-side JavaScript with Node.js for building scalable network applications.</article>
+        </section>
+        <section>
+            <h2>Mongo DB</h2>
+            <article>Explored the NoSQL database for building scalable and flexible applications.</article>
+        </section>
+    </main>
+    <footer>@copyright, This is a Portfolio</footer>
+</body>
+</html>
